@@ -5835,6 +5835,105 @@ __metadata:
   languageName: node
   linkType: hard
 
+"esbuild-dev-server-darwin-arm64@npm:0.3.0":
+  version: 0.3.0
+  resolution: "esbuild-dev-server-darwin-arm64@npm:0.3.0"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild-dev-server-darwin-x64@npm:0.3.0":
+  version: 0.3.0
+  resolution: "esbuild-dev-server-darwin-x64@npm:0.3.0"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-dev-server-linux-arm64@npm:0.3.0":
+  version: 0.3.0
+  resolution: "esbuild-dev-server-linux-arm64@npm:0.3.0"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild-dev-server-linux-arm@npm:0.3.0":
+  version: 0.3.0
+  resolution: "esbuild-dev-server-linux-arm@npm:0.3.0"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"esbuild-dev-server-linux-x32@npm:0.3.0":
+  version: 0.3.0
+  resolution: "esbuild-dev-server-linux-x32@npm:0.3.0"
+  conditions: os=linux & cpu=x32
+  languageName: node
+  linkType: hard
+
+"esbuild-dev-server-linux-x64@npm:0.3.0":
+  version: 0.3.0
+  resolution: "esbuild-dev-server-linux-x64@npm:0.3.0"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-dev-server-win32-arm64@npm:0.3.0":
+  version: 0.3.0
+  resolution: "esbuild-dev-server-win32-arm64@npm:0.3.0"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild-dev-server-win32-x32@npm:0.3.0":
+  version: 0.3.0
+  resolution: "esbuild-dev-server-win32-x32@npm:0.3.0"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"esbuild-dev-server-win32-x64@npm:0.3.0":
+  version: 0.3.0
+  resolution: "esbuild-dev-server-win32-x64@npm:0.3.0"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-dev-server@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "esbuild-dev-server@npm:0.3.0"
+  dependencies:
+    esbuild-dev-server-darwin-arm64: 0.3.0
+    esbuild-dev-server-darwin-x64: 0.3.0
+    esbuild-dev-server-linux-arm: 0.3.0
+    esbuild-dev-server-linux-arm64: 0.3.0
+    esbuild-dev-server-linux-x32: 0.3.0
+    esbuild-dev-server-linux-x64: 0.3.0
+    esbuild-dev-server-win32-arm64: 0.3.0
+    esbuild-dev-server-win32-x32: 0.3.0
+    esbuild-dev-server-win32-x64: 0.3.0
+  dependenciesMeta:
+    esbuild-dev-server-darwin-arm64:
+      optional: true
+    esbuild-dev-server-darwin-x64:
+      optional: true
+    esbuild-dev-server-linux-arm:
+      optional: true
+    esbuild-dev-server-linux-arm64:
+      optional: true
+    esbuild-dev-server-linux-x32:
+      optional: true
+    esbuild-dev-server-linux-x64:
+      optional: true
+    esbuild-dev-server-win32-arm64:
+      optional: true
+    esbuild-dev-server-win32-x32:
+      optional: true
+    esbuild-dev-server-win32-x64:
+      optional: true
+  checksum: 80827aa85a480ded95ab3a450da448fe0e56b1295e9e109614e85c60d4951c3feff258e8312cb70fcbc2a1eaf54f72ecbcc457c374bfa141fcaf34d24d660393
+  languageName: node
+  linkType: hard
+
 "esbuild@npm:^0.23.0":
   version: 0.23.0
   resolution: "esbuild@npm:0.23.0"
@@ -10772,6 +10871,7 @@ __metadata:
     babel-plugin-module-resolver: ^5.0.2
     babel-plugin-react-native-web: ^0.19.12
     esbuild: ^0.23.0
+    esbuild-dev-server: ^0.3.0
     eslint: ^8.19.0
     html-webpack-plugin: ^5.6.0
     jest: ^29.6.3

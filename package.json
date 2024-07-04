@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "start": "react-native esbuild-start",
     "build": "rm -rf dist/ && webpack --mode=production --config webpack.config.js",
-    "web": "webpack serve --mode=development --config webpack.config.js",
+    "web": "node webserver.mjs",
     "test": "jest"
   },
   "dependencies": {
@@ -33,6 +33,7 @@
     "babel-plugin-module-resolver": "^5.0.2",
     "babel-plugin-react-native-web": "^0.19.12",
     "esbuild": "^0.23.0",
+    "esbuild-dev-server": "^0.3.0",
     "eslint": "^8.19.0",
     "html-webpack-plugin": "^5.6.0",
     "jest": "^29.6.3",
